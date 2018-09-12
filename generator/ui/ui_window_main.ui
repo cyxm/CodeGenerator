@@ -15,32 +15,8 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
-    <item row="0" column="0">
-     <widget class="QWidget" name="gridWidget" native="true">
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <property name="sizeConstraint">
-        <enum>QLayout::SetMinAndMaxSize</enum>
-       </property>
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
-        <number>0</number>
-       </property>
-       <property name="spacing">
-        <number>0</number>
-       </property>
-      </layout>
-     </widget>
+    <item row="0" column="1">
+     <widget class="QTreeView" name="treeView"/>
     </item>
    </layout>
   </widget>
