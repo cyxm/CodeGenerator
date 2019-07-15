@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>829</width>
+    <height>618</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,6 +23,12 @@
    <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>618</height>
+    </size>
+   </property>
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
@@ -32,12 +38,22 @@
       <height>561</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
      <property name="spacing">
       <number>0</number>
      </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetNoConstraint</enum>
+     </property>
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_2"/>
+      <widget class="QWidget" name="vTitle" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="vContent" native="true">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
