@@ -8,36 +8,35 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+from generator.ui.widget.container.ui_widget_main_container import Ui_ContainerMain
+from generator.ui.widget.func.ui_widget_title import Ui_Widget_Title
+
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.setWindowModality(QtCore.Qt.NonModal)
-        MainWindow.resize(829, 618)
+        MainWindow.resize(800, 618)
         MainWindow.setStyleSheet("")
         MainWindow.setUnifiedTitleAndToolBarOnMac(False)
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
-        self.centralwidget.setObjectName("centralwidget")
-        self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(70, 20, 721, 561))
-        self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
-        self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
-        self.verticalLayout.setSizeConstraint(QtWidgets.QLayout.SetNoConstraint)
-        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
-        self.verticalLayout.setSpacing(0)
-        self.verticalLayout.setObjectName("verticalLayout")
-        self.vTitle = QtWidgets.QWidget(self.verticalLayoutWidget)
-        self.vTitle.setObjectName("vTitle")
-        self.verticalLayout.addWidget(self.vTitle)
-        self.vContent = QtWidgets.QWidget(self.verticalLayoutWidget)
-        self.vContent.setEnabled(True)
-        self.vContent.setObjectName("vContent")
-        self.verticalLayout.addWidget(self.vContent)
-        MainWindow.setCentralWidget(self.centralwidget)
 
+        # 设置主内容控件
+        centralWidget = QtWidgets.QWidget(MainWindow)
+        ui = Ui_ContainerMain()
+        ui.setupUi(centralWidget)
+        MainWindow.setCentralWidget(centralWidget)
+        verticalLayout = QtWidgets.QVBoxLayout(centralWidget)
+
+        #
+        title = QtWidgets.QWidget()
+        ui = Ui_Widget_Title()
+        ui.setupUi(title)
+        verticalLayout.addWidget(title)
+
+        #
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-

@@ -6,7 +6,8 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 from generator.ui.ui_main_container import Ui_MainWindow
 
 app = QApplication(sys.argv)
-MainWindow = QMainWindow(None, Qt.FramelessWindowHint)
+# MainWindow = QMainWindow(None, Qt.FramelessWindowHint)
+MainWindow = QMainWindow()
 ui = Ui_MainWindow()
 ui.setupUi(MainWindow)
 
