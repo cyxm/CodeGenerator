@@ -16,12 +16,12 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.setWindowModality(QtCore.Qt.NonModal)
-        MainWindow.resize(800, 618)
+        # MainWindow.resize(800, 618)
         MainWindow.setStyleSheet("")
         MainWindow.setUnifiedTitleAndToolBarOnMac(False)
 
         # 设置主内容控件
-        centralWidget = QtWidgets.QWidget(MainWindow)
+        centralWidget = QtWidgets.QWidget()
         ui = Ui_ContainerMain()
         ui.setupUi(centralWidget)
         MainWindow.setCentralWidget(centralWidget)
