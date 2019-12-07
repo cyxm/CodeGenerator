@@ -3,6 +3,9 @@
 
 #源码
 !/generator
+!/translator_code
+!/util_unlim
+
 **/__pycache__/
 
 #ignore文件
