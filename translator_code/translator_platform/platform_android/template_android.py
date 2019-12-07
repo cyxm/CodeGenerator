@@ -1,11 +1,11 @@
 # !/usr/bin/python3
 
-varTemplateViewHolder = """class ViewHolder {
-%s
-    ViewHolder(View v) {
-%s
-    }
-}"""
+varTemplateViewHolder = """class {clz_name} {{
+{vars}
+    {clz_name}(View v) {{
+{finds}
+    }}
+}}"""
 
 varTemplateViewHolderVariable = "\tpublic %s %s;\n"
 
