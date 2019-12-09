@@ -2,9 +2,9 @@
 /*
 
 #源码
-!/generator
-!/translator_code
-!/util_unlim
+!/codegen
+!/docs
+!/tests
 
 **/__pycache__/
 

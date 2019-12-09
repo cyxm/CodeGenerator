@@ -1,5 +1,6 @@
 # !/usr/bin/python3
 
+
 varTemplateViewHolder = """class {clz_name} {{
 {vars}
     {clz_name}(View v) {{

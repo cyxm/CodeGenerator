@@ -1,22 +1,23 @@
 # !/usr/bin/python3
 
-# coding=utf-8
+import sys
+import os
 
 from xml.sax import *
-from translator_code.translator_platform.platform_android import template_android
-
-import os
-import sys
+from . import template_android
 
 
 class AndroidLayoutHandler(ContentHandler):
-    idTypeList = {}
+
+    def __init__(self):
+        super().__init__()
+        self.idTypeList = {}
 
     def startElement(self, name, attrs):
         if attrs.get("android:id"):
             widget_id = attrs["android:id"].split("/")[1]
             if self.idTypeList.get(widget_id):
-                print("控件ID重复")
+                print("控件ID重复 ID=%s" % widget_id)
                 pass
             else:
                 self.idTypeList[widget_id] = name
@@ -82,17 +83,22 @@ if __name__ == '__main__':
         viewholderVar = ""
         viewholderStruct = ""
         for kv in data.items():
-            viewholderVar += template_android.varTemplateViewHolderVariable % (kv[1], kv[0])
-            viewholderStruct += template_android.varTemplateViewHolderStruct % (kv[0], kv[0])
+            viewholderVar += template_android.varTemplateViewHolderVariable % (
+                kv[1], kv[0])
+            viewholderStruct += template_android.varTemplateViewHolderStruct % (
+                kv[0], kv[0])
+        if viewholderStruct.endswith("\n"):
+            viewholderStruct = viewholderStruct[0:-1]
 
         # 生成类
-        viewholderStr = template_android.varTemplateViewHolder.format(clz_name=vh_clz_name,
-                                                                      vars=viewholderVar,
-                                                                      finds=viewholderStruct)
+        viewholderStr = template_android.varTemplateViewHolder.format(
+            clz_name=vh_clz_name,
+            vars=viewholderVar,
+            finds=viewholderStruct)
 
         viewholderFilePath = os.path.join(target_path, vh_file_name)
         with open(viewholderFilePath, "w+") as vhFile:
             vhFile.writelines(viewholderStr)
             vhFile.flush()
 
-        print("gen suc path=%s" % validPath)
+        print("gen suc path=%s" % path)
