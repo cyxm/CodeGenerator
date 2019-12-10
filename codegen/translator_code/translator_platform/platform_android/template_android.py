@@ -1,7 +1,14 @@
 # !/usr/bin/python3
 
 
-varTemplateViewHolder = """class {clz_name} {{
+varTemplateViewHolder = """package {package_name};
+
+import android.view.View;
+{import_pack}
+
+import {r_name};
+
+class {clz_name} {{
 {vars}
     {clz_name}(View v) {{
 {finds}
@@ -11,3 +18,17 @@ varTemplateViewHolder = """class {clz_name} {{
 varTemplateViewHolderVariable = "\tpublic %s %s;\n"
 
 varTemplateViewHolderStruct = "\t\t%s = v.findViewById(R.id.%s);\n"
+
+varTemplateViewHolderImport = "import %s;\n"
+
+var_map_clz_to_fullpath = {
+    "Button": "android.widget.Button",
+    "TextView": "android.widget.TextView",
+    "SurfaceView": "android.view.SurfaceView",
+    "EditText": "android.widget.EditText",
+    "ListView": "android.widget.ListView",
+    "LinearLayout": "android.widget.LinearLayout",
+    "SeekBar": "android.widget.SeekBar",
+    "Spinner": "android.widget.Spinner",
+    "Switch": "android.widget.Switch"
+}

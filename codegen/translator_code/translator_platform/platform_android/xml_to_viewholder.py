@@ -4,7 +4,7 @@ import sys
 import os
 
 from xml.sax import *
-from . import template_android
+from codegen.translator_code.translator_platform.platform_android import template_android
 
 
 class AndroidLayoutHandler(ContentHandler):
@@ -44,9 +44,16 @@ class XmlTrans:
         pass
 
 
-if __name__ == '__main__':
+def main():
+    arg_length = len(sys.argv)
+    if arg_length != 5:
+        print("args length error,expect 4")
+        return
     ori_path = sys.argv[1]
     target_path = sys.argv[2]
+
+    package_name = sys.argv[3]
+    r_name = sys.argv[4]
 
     validPath = []
     for file in os.listdir(ori_path):
@@ -75,7 +82,7 @@ if __name__ == '__main__':
         for part in file_name_list:
             if part == "activity" or part == "frag" or part == "fragment":
                 continue
-            viewholder_name += part.title()
+            viewholder_name += part.capitalize()
         vh_clz_name = "Vh" + viewholder_name
         vh_file_name = vh_clz_name + ".java"
 
@@ -83,22 +90,50 @@ if __name__ == '__main__':
         viewholderVar = ""
         viewholderStruct = ""
         for kv in data.items():
-            viewholderVar += template_android.varTemplateViewHolderVariable % (
-                kv[1], kv[0])
+            dot_index = kv[1].rfind(".")
+            if dot_index >= 0:
+                simple_name = kv[1][dot_index + 1:]
+                viewholderVar += template_android.varTemplateViewHolderVariable % (
+                    simple_name, kv[0])
+            else:
+                viewholderVar += template_android.varTemplateViewHolderVariable % (
+                    kv[1], kv[0])
+
             viewholderStruct += template_android.varTemplateViewHolderStruct % (
                 kv[0], kv[0])
         if viewholderStruct.endswith("\n"):
             viewholderStruct = viewholderStruct[0:-1]
 
+        # 生成import包
+        varImportSet = set(data.values())
+        import_pack = ""
+        print(varImportSet)
+        for v in varImportSet:
+            if v.find(".") >= 0:
+                import_pack += template_android.varTemplateViewHolderImport % v
+            else:
+                import_pack += template_android.varTemplateViewHolderImport % \
+                               template_android.var_map_clz_to_fullpath[v]
+
+        if import_pack.endswith("\n"):
+            import_pack = import_pack[0:-1]
+
         # 生成类
-        viewholderStr = template_android.varTemplateViewHolder.format(
+        viewholder_str = template_android.varTemplateViewHolder.format(
+            package_name=package_name,
+            r_name=r_name,
+            import_pack=import_pack,
             clz_name=vh_clz_name,
             vars=viewholderVar,
             finds=viewholderStruct)
 
         viewholderFilePath = os.path.join(target_path, vh_file_name)
         with open(viewholderFilePath, "w+") as vhFile:
-            vhFile.writelines(viewholderStr)
+            vhFile.writelines(viewholder_str)
             vhFile.flush()
 
         print("gen suc path=%s" % path)
+
+
+if __name__ == '__main__':
+    main()
