@@ -8,9 +8,9 @@ import android.view.View;
 
 import {r_name};
 
-class {clz_name} {{
+public class {clz_name} {{
 {vars}
-    {clz_name}(View v) {{
+    public {clz_name}(View v) {{
 {finds}
     }}
 }}"""
