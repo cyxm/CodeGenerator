@@ -80,7 +80,7 @@ def main():
         file_name_list = file_name_without_suffix.split("_")
         viewholder_name = ""
         for part in file_name_list:
-            if part == "layout":
+            if part == "layout" or part == "page":
                 continue
             viewholder_name += part.capitalize()
         vh_clz_name = "Vh" + viewholder_name
