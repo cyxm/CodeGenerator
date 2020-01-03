@@ -15,6 +15,22 @@ public class {clz_name} {{
     }}
 }}"""
 
+varTemplateViewHolderForRecycle = """package {package_name};
+
+import android.view.View;
+import com.chad.library.adapter.base.BaseViewHolder;
+{import_pack}
+
+import {r_name};
+
+public class {clz_name} extends BaseViewHolder {{
+{vars}
+    public {clz_name}(View v) {{
+        super(v);
+{finds}
+    }}
+}}"""
+
 varTemplateViewHolderVariable = "\tpublic %s %s;\n"
 
 varTemplateViewHolderStruct = "\t\t%s = v.findViewById(R.id.%s);\n"

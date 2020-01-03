@@ -79,9 +79,12 @@ def main():
         file_name_without_suffix = fileName.split(".")[0]
         file_name_list = file_name_without_suffix.split("_")
         viewholder_name = ""
+        str_template = template_android.varTemplateViewHolder
         for part in file_name_list:
             if part == "layout" or part == "page":
                 continue
+            elif part == "item":
+                str_template = template_android.varTemplateViewHolderForRecycle
             viewholder_name += part.capitalize()
         vh_clz_name = "Vh" + viewholder_name
         vh_file_name = vh_clz_name + ".java"
@@ -119,7 +122,7 @@ def main():
             import_pack = import_pack[0:-1]
 
         # 生成类
-        viewholder_str = template_android.varTemplateViewHolder.format(
+        viewholder_str = str_template.format(
             package_name=package_name,
             r_name=r_name,
             import_pack=import_pack,
