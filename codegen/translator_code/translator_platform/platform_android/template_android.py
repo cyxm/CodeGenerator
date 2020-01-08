@@ -43,8 +43,9 @@ var_map_clz_to_fullpath = {
     "SurfaceView": "android.view.SurfaceView",
     "EditText": "android.widget.EditText",
     "ListView": "android.widget.ListView",
-    "LinearLayout": "android.widget.LinearLayout",
     "SeekBar": "android.widget.SeekBar",
     "Spinner": "android.widget.Spinner",
-    "Switch": "android.widget.Switch"
+    "Switch": "android.widget.Switch",
+    "LinearLayout": "android.widget.LinearLayout",
+    "FrameLayout": "android.widget.FrameLayout"
 }
