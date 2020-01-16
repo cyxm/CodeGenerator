@@ -3,17 +3,27 @@ import sys
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-from generator.ui.ui_main_container import Ui_MainWindow
+from codegen.generator.ui.widget.main_window import Ui_MainWindow
 
 app = QApplication(sys.argv)
-# MainWindow = QMainWindow(None, Qt.FramelessWindowHint)
-MainWindow = QMainWindow()
+
+# 配置窗口属性
+window_main = QMainWindow()
+
+window_main.setMinimumSize(800, 600)
+
+# window_main.setWindowOpacity(1)
+# window_main.setWindowFlags(Qt.CustomizeWindowHint)
+# window_main.setAttribute(Qt.WA_TranslucentBackground)
+
 ui = Ui_MainWindow()
-ui.setupUi(MainWindow)
+ui.setupUi(window_main)
 
-# MainWindow.setWindowOpacity(1)
-# MainWindow.setWindowFlags(Qt.FramelessWindowHint)
-# MainWindow.setAttribute(Qt.WA_TranslucentBackground)
+p = window_main.takeCentralWidget()
+del p
 
-MainWindow.show()
+window_main.setDockNestingEnabled(True)
+
+
+window_main.show()
 sys.exit(app.exec_())
