@@ -127,6 +127,7 @@ def main():
             r_name=r_name,
             import_pack=import_pack,
             clz_name=vh_clz_name,
+            res=file_name_without_suffix,
             vars=viewholderVar,
             finds=viewholderStruct)
 

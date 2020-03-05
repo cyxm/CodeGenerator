@@ -9,6 +9,9 @@ import android.view.View;
 import {r_name};
 
 public class {clz_name} {{
+
+    public static int LAYOUT_RES = R.layout.{res};
+
 {vars}
     public {clz_name}(View v) {{
 {finds}
