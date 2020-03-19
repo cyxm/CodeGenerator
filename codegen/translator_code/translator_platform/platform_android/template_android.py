@@ -42,6 +42,7 @@ varTemplateViewHolderImport = "import %s;\n"
 
 var_map_clz_to_fullpath = {
     "Button": "android.widget.Button",
+    "ImageView": "android.widget.ImageView",
     "TextView": "android.widget.TextView",
     "SurfaceView": "android.view.SurfaceView",
     "EditText": "android.widget.EditText",

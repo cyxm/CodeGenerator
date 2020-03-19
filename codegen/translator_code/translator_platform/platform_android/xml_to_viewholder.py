@@ -66,6 +66,7 @@ def main():
     xml_trans = XmlTrans()
 
     for path in validPath:
+        print("start gen path=%s" % path)
         # 解析
         handler = AndroidLayoutHandler()
         xml_trans.set_sax_handler(handler)
