@@ -51,5 +51,11 @@ var_map_clz_to_fullpath = {
     "Spinner": "android.widget.Spinner",
     "Switch": "android.widget.Switch",
     "LinearLayout": "android.widget.LinearLayout",
-    "FrameLayout": "android.widget.FrameLayout"
+    "FrameLayout": "android.widget.FrameLayout",
+    "RadioButton": "android.widget.RadioButton",
+    "RadioGroup": "android.widget.RadioGroup",
+    "WebView": "android.webkit.WebView",
+    "ProgressBar": "android.widget.ProgressBar",
+    "NumberPicker": "android.widget.NumberPicker",
+    "TimePicker": "android.widget.TimePicker"
 }
