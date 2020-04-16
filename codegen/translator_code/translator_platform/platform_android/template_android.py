@@ -57,5 +57,6 @@ var_map_clz_to_fullpath = {
     "WebView": "android.webkit.WebView",
     "ProgressBar": "android.widget.ProgressBar",
     "NumberPicker": "android.widget.NumberPicker",
-    "TimePicker": "android.widget.TimePicker"
+    "TimePicker": "android.widget.TimePicker",
+    "VideoView": "android.widget.VideoView"
 }
