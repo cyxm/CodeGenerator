@@ -51,6 +51,7 @@ var_map_clz_to_fullpath = {
     "Spinner": "android.widget.Spinner",
     "Switch": "android.widget.Switch",
     "LinearLayout": "android.widget.LinearLayout",
+    "RelativeLayout": "android.widget.RelativeLayout",
     "FrameLayout": "android.widget.FrameLayout",
     "RadioButton": "android.widget.RadioButton",
     "RadioGroup": "android.widget.RadioGroup",
