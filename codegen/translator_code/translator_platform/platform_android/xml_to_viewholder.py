@@ -115,6 +115,8 @@ def main():
         for v in varImportSet:
             if v.find(".") >= 0:
                 import_pack += template_android.varTemplateViewHolderImport % v
+            elif "include" in v:
+                continue
             else:
                 import_pack += template_android.varTemplateViewHolderImport % \
                                template_android.var_map_clz_to_fullpath[v]
