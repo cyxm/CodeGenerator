@@ -97,14 +97,13 @@ def main():
             dot_index = kv[1].rfind(".")
             if dot_index >= 0:
                 simple_name = kv[1][dot_index + 1:]
-                viewholderVar += template_android.varTemplateViewHolderVariable % (
-                    simple_name, kv[0])
+                viewholderVar += template_android.varTemplateViewHolderVariable % (simple_name, kv[0])
+            elif kv[1] == "include":
+                continue
             else:
-                viewholderVar += template_android.varTemplateViewHolderVariable % (
-                    kv[1], kv[0])
+                viewholderVar += template_android.varTemplateViewHolderVariable % (kv[1], kv[0])
 
-            viewholderStruct += template_android.varTemplateViewHolderStruct % (
-                kv[0], kv[0])
+            viewholderStruct += template_android.varTemplateViewHolderStruct % (kv[0], kv[0])
         if viewholderStruct.endswith("\n"):
             viewholderStruct = viewholderStruct[0:-1]
 
@@ -115,7 +114,7 @@ def main():
         for v in varImportSet:
             if v.find(".") >= 0:
                 import_pack += template_android.varTemplateViewHolderImport % v
-            elif "include" in v:
+            elif v == "include":
                 continue
             else:
                 import_pack += template_android.varTemplateViewHolderImport % \
