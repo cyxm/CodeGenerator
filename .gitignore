@@ -1,16 +1,17 @@
 #白名单模式
 /*
 
-#源码
+#添加文件夹
 !/codegen
 !/docs
 !/script
 !/tests
+!/base_model
 
 **/__pycache__/
 
+#添加文件
 #ignore文件
 !.gitignore
-
 #LICENSE
 !LICENSE
