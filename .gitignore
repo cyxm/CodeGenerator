@@ -13,5 +13,5 @@
 #添加文件
 #ignore文件
 !.gitignore
-#LICENSE
+#LICENSE授权文件
 !LICENSE
