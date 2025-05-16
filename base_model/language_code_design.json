@@ -1,0 +1,32 @@
+{
+  "tables": [
+    {
+      "id": "QcV_VCVgqU6E2xfcIAL3w",
+      "name": "table_0",
+      "x": -322.66668701171875,
+      "y": -116.6666717529297,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "gCzxaz2BFjDek8QQc8QIH"
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    }
+  ],
+  "relationships": [],
+  "notes": [],
+  "subjectAreas": [],
+  "database": "sqlite",
+  "title": "Untitled Diagram"
+}
