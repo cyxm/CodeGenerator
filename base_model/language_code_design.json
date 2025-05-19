@@ -1,10 +1,33 @@
 {
   "tables": [
     {
+      "id": "kFFJJ6lsCu__R_Azsyfju",
+      "name": "语言",
+      "x": -1457.632041015625,
+      "y": -315.743994140625,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "HuWXNwOe3MkIF0-VutyAo"
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
       "id": "QcV_VCVgqU6E2xfcIAL3w",
-      "name": "table_0",
-      "x": -322.66668701171875,
-      "y": -116.6666717529297,
+      "name": "形式语言",
+      "x": -1457.1626049804693,
+      "y": -444.02666442871123,
       "fields": [
         {
           "name": "id",
@@ -22,11 +45,163 @@
       "comment": "",
       "indices": [],
       "color": "#175e7a"
+    },
+    {
+      "id": "PnSV6Ejp2n0X82Vgg48BW",
+      "name": "实体语义",
+      "x": -1034.8802929687497,
+      "y": -463.58397949218744,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "jenMRdJLn00DCT6tkGGVF"
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "BjfyameZAJSdMRFBBEVUD",
+      "name": "抽象语义",
+      "x": -1038.0481347656246,
+      "y": -331.5840380859375,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "Wh764WtEC0W0EcN4nQ58D"
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "JYl48g_AktKixVXehv_JX",
+      "name": "符号表",
+      "x": -226.1010351562502,
+      "y": -434.36787109374967,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "2fc4Vqc6Hd9vhfADtznUm"
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "sGxke3Hly7nnHeLNB0WM4",
+      "name": "语法",
+      "x": -627.7334521484378,
+      "y": -456.1919238281249,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "5mMixkcf4jf0PJsWqUuIk"
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "LSi_898MbXAN-maU5zd_T",
+      "name": "抽象语义集",
+      "x": -1038.0089697265626,
+      "y": -190.94049560546864,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "QNZXZuvr3A0ISgjpRW_vX"
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
     }
   ],
   "relationships": [],
   "notes": [],
-  "subjectAreas": [],
+  "subjectAreas": [
+    {
+      "id": 0,
+      "name": "语言范畴",
+      "x": -1529.1198828125,
+      "y": -507.6160424804687,
+      "width": 357.6638037109375,
+      "height": 339.6640234375,
+      "color": "#17447a"
+    },
+    {
+      "id": 1,
+      "name": "语义",
+      "x": -1090.5280468749997,
+      "y": -510.09604980468754,
+      "width": 328.25239420572893,
+      "height": 473.6000122070314,
+      "color": "#177a2b"
+    },
+    {
+      "id": 2,
+      "name": "语法",
+      "x": -700.2773437500002,
+      "y": -509.72799560546866,
+      "width": 360.8318212890624,
+      "height": 176.84804687499997,
+      "color": "#7a4917"
+    },
+    {
+      "id": 3,
+      "name": "表达符号",
+      "x": -269.07720214843766,
+      "y": -513.0559106445311,
+      "width": 313.31195312499995,
+      "height": 224.3680029296874,
+      "color": "#75177a"
+    }
+  ],
   "database": "sqlite",
-  "title": "Untitled Diagram"
+  "title": "language_code_design"
 }
