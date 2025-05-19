@@ -1,5 +1,16 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6">
-  <diagram name="第 1 页" id="G3YAlOKA3vNf8rJwjBP_">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6" pages="2">
+  <diagram id="AjevdpNKFCWGW2fZ6iDX" name="实体">
+    <mxGraphModel dx="772" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K-StiKVMIyJqJfj_GK5s-1" value="实体" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="语言" id="G3YAlOKA3vNf8rJwjBP_">
     <mxGraphModel dx="772" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <object label="" id="0">
@@ -7,16 +18,22 @@
         </object>
         <mxCell id="1" parent="0" />
         <mxCell id="13szVx3tD04WxQRJkEBS-36" value="形式语言" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="120" width="110" height="50" as="geometry" />
+          <mxGeometry x="160" y="160" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="13szVx3tD04WxQRJkEBS-37" value="语言" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="200" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="13szVx3tD04WxQRJkEBS-38" value="实体语义" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="110" height="50" as="geometry" />
+          <mxGeometry x="160" y="240" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="13szVx3tD04WxQRJkEBS-39" value="抽象语义" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="280" y="120" width="110" height="50" as="geometry" />
+          <mxGeometry x="320" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13szVx3tD04WxQRJkEBS-40" value="抽象语义集" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13szVx3tD04WxQRJkEBS-41" value="语法" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13szVx3tD04WxQRJkEBS-42" value="符号表" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
