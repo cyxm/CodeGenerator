@@ -53,22 +53,22 @@
           <mxCell />
         </object>
         <mxCell id="1" parent="0" />
-        <mxCell id="13szVx3tD04WxQRJkEBS-36" value="形式语言" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="13szVx3tD04WxQRJkEBS-36" value="形式语言" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="160" y="160" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="13szVx3tD04WxQRJkEBS-37" value="语言" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="13szVx3tD04WxQRJkEBS-37" value="语言" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="160" y="240" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="13szVx3tD04WxQRJkEBS-39" value="抽象语义" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="320" y="160" width="110" height="50" as="geometry" />
+        <mxCell id="13szVx3tD04WxQRJkEBS-39" value="语义" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="320" y="320" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="13szVx3tD04WxQRJkEBS-40" value="抽象语义集" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="13szVx3tD04WxQRJkEBS-40" value="语义集" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="320" y="240" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="13szVx3tD04WxQRJkEBS-41" value="语法" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="13szVx3tD04WxQRJkEBS-41" value="语法" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="480" y="240" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="13szVx3tD04WxQRJkEBS-42" value="符号表" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="13szVx3tD04WxQRJkEBS-42" value="符号表" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="640" y="240" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
