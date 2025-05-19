@@ -66,10 +66,16 @@
           <mxGeometry x="320" y="240" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="13szVx3tD04WxQRJkEBS-41" value="语法" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="480" y="240" width="110" height="50" as="geometry" />
+          <mxGeometry x="480" y="320" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="13szVx3tD04WxQRJkEBS-42" value="符号表" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="640" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P8Fqyduh-7pvwgNPaYR5-1" value="符号" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P8Fqyduh-7pvwgNPaYR5-2" value="语法集" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
