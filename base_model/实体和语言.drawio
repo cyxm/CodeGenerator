@@ -111,7 +111,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I3SXb03SLYxVRzAOsq0A-1" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="560" y="160" width="110" height="170" as="geometry" />
+          <mxGeometry x="560" y="360" width="110" height="170" as="geometry" />
         </mxCell>
         <mxCell id="13szVx3tD04WxQRJkEBS-42" value="符号表" style="html=1;whiteSpace=wrap;rounded=1;" parent="I3SXb03SLYxVRzAOsq0A-1" vertex="1">
           <mxGeometry width="110" height="50" as="geometry" />
