@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.1" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.6" pages="2">
   <diagram id="AjevdpNKFCWGW2fZ6iDX" name="实体">
-    <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,10 +37,10 @@
         <mxCell id="LzeVbRhZu0msdHV2QB-F-12" value="边界" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;" parent="LzeVbRhZu0msdHV2QB-F-11" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LzeVbRhZu0msdHV2QB-F-13" value="内部特征" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;" parent="LzeVbRhZu0msdHV2QB-F-11" vertex="1">
+        <mxCell id="LzeVbRhZu0msdHV2QB-F-13" value="内部状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;" parent="LzeVbRhZu0msdHV2QB-F-11" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LzeVbRhZu0msdHV2QB-F-14" value="边界交换" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;" parent="LzeVbRhZu0msdHV2QB-F-11" vertex="1">
+        <mxCell id="LzeVbRhZu0msdHV2QB-F-14" value="边界状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;" parent="LzeVbRhZu0msdHV2QB-F-11" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="v43ZQXRYlfGFwXUrVnHj-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LzeVbRhZu0msdHV2QB-F-7" target="LzeVbRhZu0msdHV2QB-F-13" edge="1">
@@ -58,28 +58,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="语言" id="G3YAlOKA3vNf8rJwjBP_">
-    <mxGraphModel dx="908" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <object label="" id="0">
           <mxCell />
         </object>
         <mxCell id="1" parent="0" />
-        <mxCell id="u-Gsuax-7BOMQO81au6b-2" value="" style="group;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="590" y="10" width="110" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="13szVx3tD04WxQRJkEBS-36" value="形式语言" style="html=1;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=none;" parent="u-Gsuax-7BOMQO81au6b-2" vertex="1">
-          <mxGeometry width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="13szVx3tD04WxQRJkEBS-37" value="语言" style="html=1;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=none;" parent="u-Gsuax-7BOMQO81au6b-2" vertex="1">
-          <mxGeometry y="120" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="u-Gsuax-7BOMQO81au6b-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=none;fontColor=default;" parent="u-Gsuax-7BOMQO81au6b-2" source="13szVx3tD04WxQRJkEBS-37" target="13szVx3tD04WxQRJkEBS-36" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="210" y="120" as="sourcePoint" />
-            <mxPoint x="370" y="120" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="u-Gsuax-7BOMQO81au6b-8" value="" style="group;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="70" y="350" width="110" height="170" as="geometry" />
         </mxCell>
@@ -134,8 +118,8 @@
             <mxPoint x="220" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YqtILlJTDyAc7TsJqT2Q-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="240" y="320" width="430" height="50" as="geometry" />
+        <mxCell id="YqtILlJTDyAc7TsJqT2Q-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="270" y="530" width="430" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yFKnU3Q6yaNPvrjwR3Xp-7" value="&lt;div&gt;生成式&lt;/div&gt;&lt;div&gt;(描述如何将语义转换为符号表达)&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="YqtILlJTDyAc7TsJqT2Q-3" vertex="1">
           <mxGeometry x="160" width="110" height="50" as="geometry" />
@@ -152,34 +136,47 @@
             <mxPoint x="250" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YqtILlJTDyAc7TsJqT2Q-2" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqtILlJTDyAc7TsJqT2Q-3" source="yFKnU3Q6yaNPvrjwR3Xp-7" target="yFKnU3Q6yaNPvrjwR3Xp-9">
+        <mxCell id="YqtILlJTDyAc7TsJqT2Q-2" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="YqtILlJTDyAc7TsJqT2Q-3" source="yFKnU3Q6yaNPvrjwR3Xp-7" target="yFKnU3Q6yaNPvrjwR3Xp-9" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="280" y="24.410000000000025" as="sourcePoint" />
             <mxPoint x="440" y="24.410000000000025" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YqtILlJTDyAc7TsJqT2Q-4" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="240" y="440" width="430" height="50" as="geometry" />
+        <mxCell id="YqtILlJTDyAc7TsJqT2Q-4" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="270" y="630" width="430" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YqtILlJTDyAc7TsJqT2Q-5" value="&lt;div&gt;生成式&lt;/div&gt;&lt;div&gt;(描述如何将语义转换为符号表达)&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="YqtILlJTDyAc7TsJqT2Q-4">
+        <mxCell id="YqtILlJTDyAc7TsJqT2Q-5" value="&lt;div&gt;生成式&lt;/div&gt;&lt;div&gt;(描述如何将语义转换为符号表达)&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="YqtILlJTDyAc7TsJqT2Q-4" vertex="1">
           <mxGeometry x="160" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YqtILlJTDyAc7TsJqT2Q-6" value="&lt;div&gt;左式&lt;/div&gt;&lt;div&gt;/ 抽象表达&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="YqtILlJTDyAc7TsJqT2Q-4">
+        <mxCell id="YqtILlJTDyAc7TsJqT2Q-6" value="&lt;div&gt;左式&lt;/div&gt;&lt;div&gt;/ 抽象表达&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="YqtILlJTDyAc7TsJqT2Q-4" vertex="1">
           <mxGeometry width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YqtILlJTDyAc7TsJqT2Q-7" value="&lt;div&gt;右式&lt;/div&gt;&lt;div&gt;/ 符号表达&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="YqtILlJTDyAc7TsJqT2Q-4">
+        <mxCell id="YqtILlJTDyAc7TsJqT2Q-7" value="&lt;div&gt;右式&lt;/div&gt;&lt;div&gt;/ 符号表达&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="YqtILlJTDyAc7TsJqT2Q-4" vertex="1">
           <mxGeometry x="320" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YqtILlJTDyAc7TsJqT2Q-8" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;rounded=0;curved=0;" edge="1" parent="YqtILlJTDyAc7TsJqT2Q-4" source="YqtILlJTDyAc7TsJqT2Q-5" target="YqtILlJTDyAc7TsJqT2Q-6">
+        <mxCell id="YqtILlJTDyAc7TsJqT2Q-8" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;rounded=0;curved=0;" parent="YqtILlJTDyAc7TsJqT2Q-4" source="YqtILlJTDyAc7TsJqT2Q-5" target="YqtILlJTDyAc7TsJqT2Q-6" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="90" y="40" as="sourcePoint" />
             <mxPoint x="250" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YqtILlJTDyAc7TsJqT2Q-9" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqtILlJTDyAc7TsJqT2Q-4" source="YqtILlJTDyAc7TsJqT2Q-5" target="YqtILlJTDyAc7TsJqT2Q-7">
+        <mxCell id="YqtILlJTDyAc7TsJqT2Q-9" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="YqtILlJTDyAc7TsJqT2Q-4" source="YqtILlJTDyAc7TsJqT2Q-5" target="YqtILlJTDyAc7TsJqT2Q-7" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="280" y="24.410000000000025" as="sourcePoint" />
             <mxPoint x="440" y="24.410000000000025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13szVx3tD04WxQRJkEBS-36" value="&lt;div&gt;形式语言&lt;/div&gt;&lt;div&gt;(对语言的规范化描述)&lt;/div&gt;" style="html=1;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13szVx3tD04WxQRJkEBS-37" value="语言" style="html=1;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="430" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u-Gsuax-7BOMQO81au6b-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="13szVx3tD04WxQRJkEBS-37" target="13szVx3tD04WxQRJkEBS-36" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="270" as="sourcePoint" />
+            <mxPoint x="810" y="270" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
