@@ -340,7 +340,7 @@
         <mxCell id="zwSjhUTSNHt5r1pXhi_--13" value="web脚本语言" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="700" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zwSjhUTSNHt5r1pXhi_--14" value="机器码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--14" value="系统API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="700" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
