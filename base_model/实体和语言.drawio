@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5" pages="6">
   <diagram id="AjevdpNKFCWGW2fZ6iDX" name="实体">
     <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -304,6 +304,44 @@
         </mxCell>
         <mxCell id="8UMgccT7uOljm4EDcVX4-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="8UMgccT7uOljm4EDcVX4-1" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U9a-gP_SoYzBjImV3Buy" name="指令">
+    <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--1" value="&lt;div&gt;硬件&lt;/div&gt;&lt;div&gt;1.冯诺依曼结构(总线结构)&lt;/div&gt;&lt;div&gt;2.哈佛结构(分离总线结构)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--3" value="&lt;div&gt;操作系统内核&lt;/div&gt;&lt;div&gt;1.CPU管理(线程管理)&lt;/div&gt;&lt;div&gt;2.内存管理(进程和IPC)&lt;/div&gt;&lt;div&gt;3.I/O管理&lt;/div&gt;&lt;div&gt;4.文件系统(大容量存储硬件的数据管理)&lt;/div&gt;&lt;div&gt;5.中断和异常&lt;/div&gt;&lt;div&gt;6.权限管理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="720" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--4" value="驱动程序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--5" value="硬件指令集" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--6" value="&lt;div&gt;虚拟机&lt;/div&gt;&lt;div&gt;1.字节码管理&lt;/div&gt;&lt;div&gt;2.内存自动管理&lt;/div&gt;&lt;div&gt;3.线程与同步锁&lt;/div&gt;&lt;div&gt;4.异常&lt;/div&gt;&lt;div&gt;5.native调用&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--8" value="&lt;div&gt;浏览器&lt;/div&gt;&lt;div&gt;1.web语言解析&lt;/div&gt;&lt;div&gt;2.UI渲染&lt;/div&gt;&lt;div&gt;3.网络请求&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--9" value="操作系统API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--12" value="字节码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--13" value="web脚本语言" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--14" value="机器码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
