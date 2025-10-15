@@ -1,67 +1,40 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.6" pages="6">
   <diagram id="AjevdpNKFCWGW2fZ6iDX" name="实体">
-    <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2239" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7UFZGqPZn7CgjIn6PGD6-3" value="物理实体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="40" width="140" height="90" as="geometry" />
+          <mxGeometry x="40" y="40" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-4" value="空间特征" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-3" vertex="1">
+        <mxCell id="7UFZGqPZn7CgjIn6PGD6-4" value="基本粒子的集合" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-3" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-5" value="时间特征" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-3" vertex="1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-9" value="认知实体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="320" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-17" value="解构认知" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="520" width="140" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-18" value="静态解构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-17" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-19" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-17" vertex="1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-20" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-17" vertex="1">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-21" value="抽象实体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="600" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-25" value="观察动作" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="120" width="140" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-26" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-25" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-27" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-25" vertex="1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7UFZGqPZn7CgjIn6PGD6-28" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7UFZGqPZn7CgjIn6PGD6-25" vertex="1">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VQa6BMgfKN9A4eHezpP2-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7UFZGqPZn7CgjIn6PGD6-9" target="7UFZGqPZn7CgjIn6PGD6-3">
+        <mxCell id="VQa6BMgfKN9A4eHezpP2-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="LjxktlOLDU8j0kuQi8os-3" target="7UFZGqPZn7CgjIn6PGD6-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="410" as="sourcePoint" />
-            <mxPoint x="440" y="360" as="targetPoint" />
+            <mxPoint x="110" y="360" as="sourcePoint" />
+            <mxPoint x="400" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VQa6BMgfKN9A4eHezpP2-3" value="认知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VQa6BMgfKN9A4eHezpP2-1">
+        <mxCell id="VQa6BMgfKN9A4eHezpP2-3" value="认知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VQa6BMgfKN9A4eHezpP2-1" vertex="1" connectable="0">
           <mxGeometry x="-0.0211" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VQa6BMgfKN9A4eHezpP2-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7UFZGqPZn7CgjIn6PGD6-21" target="7UFZGqPZn7CgjIn6PGD6-9">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="410" as="sourcePoint" />
-            <mxPoint x="440" y="360" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="VQa6BMgfKN9A4eHezpP2-6" value="&lt;div&gt;1.特征&lt;/div&gt;&lt;div&gt;认知是对物理实体的一种映射,但认知的信息量必定小于物理实体,因此认知的事物总是会做一定的信息筛减&lt;/div&gt;&lt;div&gt;1-1.静态特征和动态特征&lt;/div&gt;&lt;div&gt;描述实体的特征是否和时间相关,通常动态特征的信息量和复杂度要远大于静态特征&lt;/div&gt;&lt;div&gt;1-2..结构特征和交互特征&lt;/div&gt;&lt;div&gt;描述实体的特征是基于内部结构描述还是与外界的交互描述&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.特征间的关系&lt;/div&gt;&lt;div&gt;2-1.正交特征&lt;/div&gt;&lt;div&gt;一种特征变动时,完全不会影响到另一种特征,则两个特征是正交的&lt;/div&gt;&lt;div&gt;2-2.模糊特征&lt;/div&gt;&lt;div&gt;两个特征间具有关联,但以当前认知水平无法得到原因&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.特征集&lt;/div&gt;&lt;div&gt;3-1.完全特征集&lt;/div&gt;&lt;div&gt;包含的特征可对应全部实体&lt;/div&gt;&lt;div&gt;3-2.二元特征集&lt;/div&gt;&lt;div&gt;由于模糊特征,无法准确的分离出正交特征,导致特征描述模糊,只能用特征的有无区分,以获得完全特征集&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+          <mxGeometry x="240" y="200" width="360" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="VQa6BMgfKN9A4eHezpP2-6" value="&lt;div&gt;1.静态特征和动态特征&lt;/div&gt;&lt;div&gt;描述实体的特征是否和时间相关&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.内部特征和交互特征&lt;/div&gt;&lt;div&gt;描述实体的特征是基于内部还是与外界的交互&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="360" height="160" as="geometry" />
+        <mxCell id="LjxktlOLDU8j0kuQi8os-1" value="&lt;div&gt;认知过程&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.解构&lt;/div&gt;&lt;div&gt;将庞大的结构分解,降低认知难度,解析物理实体运行的原理&lt;/div&gt;&lt;div&gt;1-1.认知粒度&lt;/div&gt;&lt;div&gt;根据认知能力,对实体的认知粒度不同,解构程度不同,解构后特征的准确度也不同&lt;/div&gt;&lt;div&gt;1-2.界定&lt;/div&gt;&lt;div&gt;&lt;div&gt;任何物理实体只是物质全集的部分,对全集解构后的产物,需要对特征边界做界定&lt;/div&gt;&lt;/div&gt;&lt;div&gt;1-3.聚焦&lt;/div&gt;&lt;div&gt;只关注部分特征,忽略其他特征&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="80" width="360" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LjxktlOLDU8j0kuQi8os-3" value="认知实体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LjxktlOLDU8j0kuQi8os-4" value="特征认知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="LjxktlOLDU8j0kuQi8os-3">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjxktlOLDU8j0kuQi8os-7" value="&lt;div&gt;2.重构&lt;/div&gt;&lt;div&gt;将认知重构成物理实体的过程,通过和外界的交互,更改物理实体的特征&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="360" width="360" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
