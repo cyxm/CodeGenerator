@@ -181,6 +181,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EnrUjxHXvbWjaL8nLA-c-5" value="&lt;div&gt;汇编层表达(汇编语言,机器码),拥有最基础的语义,控制硬件层的运行流程:&lt;/div&gt;&lt;div&gt;1.数据传送类&lt;/div&gt;&lt;div&gt;2.运算类&lt;/div&gt;&lt;div&gt;3.控制转移类&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EnrUjxHXvbWjaL8nLA-c-6" value="&lt;div&gt;高级语言层,对汇编层的一种重构映射,减少信息量,增加范式,使得程序更具有可控性&lt;/div&gt;&lt;div&gt;本质上是将一部分软件语义委托给操作系统或者虚拟机等中间层处理&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-XHl--1JR-R2RV8Wd_5n-1" value="&lt;div&gt;软件语义:&lt;/div&gt;&lt;div&gt;软件的语义本质上是计算机这一物理实体运行特征的认知,抽离硬件的底层运行特征,将硬件抽象为自动机模型&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="320" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
