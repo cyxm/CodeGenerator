@@ -146,29 +146,29 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zwSjhUTSNHt5r1pXhi_--1" value="&lt;div&gt;硬件&lt;/div&gt;&lt;div&gt;1.冯诺依曼结构(总线结构)&lt;/div&gt;&lt;div&gt;2.哈佛结构(分离总线结构)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="40" y="200" width="320" height="80" as="geometry" />
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--1" value="&lt;div&gt;硬件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.可编程机(固定硬件流程,取指令,执行指令,传输数据)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.总线结构(冯诺依曼结构,哈佛结构,其他非通用的结构)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="zwSjhUTSNHt5r1pXhi_--3" value="&lt;div&gt;操作系统内核&lt;/div&gt;&lt;div&gt;1.CPU管理(线程管理)&lt;/div&gt;&lt;div&gt;2.内存管理(进程和IPC)&lt;/div&gt;&lt;div&gt;3.I/O管理&lt;/div&gt;&lt;div&gt;4.文件系统(大容量存储硬件的数据管理)&lt;/div&gt;&lt;div&gt;5.中断和异常&lt;/div&gt;&lt;div&gt;6.权限管理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="40" y="440" width="320" height="120" as="geometry" />
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--3" value="&lt;div&gt;操作系统&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.内存管理&lt;/div&gt;&lt;div&gt;逻辑内存(段页式,映射物理内存)&lt;/div&gt;&lt;div&gt;进程管理&lt;/div&gt;&lt;div&gt;堆栈内存管理模型(代码段,数据段,堆,栈)&lt;/div&gt;&lt;div&gt;IPC(通过内核态共享内存)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.CPU管理(线程管理)&lt;/div&gt;&lt;div&gt;流水线指令调度&lt;/div&gt;&lt;div&gt;多任务并发&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.文件系统(大容量存储硬件的数据管理)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4.I/O管理&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5.中断和异常&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;6.权限管理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="440" width="320" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="zwSjhUTSNHt5r1pXhi_--6" value="&lt;div&gt;虚拟机&lt;/div&gt;&lt;div&gt;1.字节码管理&lt;/div&gt;&lt;div&gt;2.内存自动管理&lt;/div&gt;&lt;div&gt;3.线程与同步锁&lt;/div&gt;&lt;div&gt;4.异常&lt;/div&gt;&lt;div&gt;5.native调用&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="40" y="720" width="280" height="120" as="geometry" />
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--6" value="&lt;div&gt;虚拟机&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.字节码管理&lt;/div&gt;&lt;div&gt;2.内存自动管理&lt;/div&gt;&lt;div&gt;3.线程与同步锁&lt;/div&gt;&lt;div&gt;4.异常&lt;/div&gt;&lt;div&gt;5.native调用&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="880" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zwSjhUTSNHt5r1pXhi_--8" value="&lt;div&gt;浏览器&lt;/div&gt;&lt;div&gt;1.web语言解析&lt;/div&gt;&lt;div&gt;2.UI渲染&lt;/div&gt;&lt;div&gt;3.网络请求&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="40" y="960" width="280" height="120" as="geometry" />
+        <mxCell id="zwSjhUTSNHt5r1pXhi_--8" value="&lt;div&gt;浏览器&lt;/div&gt;&lt;div&gt;1.web语言解析&lt;/div&gt;&lt;div&gt;2.UI渲染&lt;/div&gt;&lt;div&gt;3.网络请求&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="547" y="920" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TJ0hToIEeiY0GXmWugr6-1" value="&lt;div&gt;汇编层表达(汇编语言,机器码),拥有最基础的语义,控制硬件层的运行流程:&lt;/div&gt;&lt;div&gt;1.数据传送类&lt;/div&gt;&lt;div&gt;2.运算类&lt;/div&gt;&lt;div&gt;3.控制转移类&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="440" y="200" width="280" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="TJ0hToIEeiY0GXmWugr6-2" value="&lt;div&gt;高级语言层,对汇编层的一种重构映射,减少信息量,增加范式,使得程序更具有可控性&lt;/div&gt;&lt;div&gt;本质上是将一部分软件语义委托给操作系统或者虚拟机等中间层处理&lt;/div&gt;&lt;div&gt;1.内存管理(段页式管理,逻辑内存到物理内存的映射)&lt;/div&gt;&lt;div&gt;高级语言对内存的运用依赖于操作系统对内存的管理,因此不会直接操作内存地址,所有操作在堆栈模型中运行&lt;/div&gt;&lt;div&gt;2.CPU管理(线程调度)&lt;/div&gt;&lt;div&gt;操作系统实现了线程的调度,使得软件可以实现多任务并发&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="440" y="440" width="320" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="TJ0hToIEeiY0GXmWugr6-3" value="&lt;div&gt;软件语义:&lt;/div&gt;&lt;div&gt;软件的语义本质上是计算机这一物理实体运行特征的认知,抽离硬件的底层运行特征,将硬件抽象为自动机模型&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="TJ0hToIEeiY0GXmWugr6-3" value="&lt;div&gt;软件语义:&lt;/div&gt;&lt;div&gt;软件的语义本质上是计算机这一物理实体运行特征的认知,抽离硬件的底层运行特征,将硬件抽象为自动机模型&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="5hZLTCY3wlasn3P3NbbY-3" value="&lt;div&gt;语言层内存的组织方式(可见性,作用域):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="880" y="440" width="400" height="170" as="geometry" />
+        <mxCell id="iVKW09PnfDHmBO5p8iMp-1" value="&lt;div&gt;指令集(汇编语言,机器码)&lt;/div&gt;&lt;div&gt;拥有最基础的语义,控制硬件层的运行程序&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.数据传送类&lt;/div&gt;&lt;div&gt;2.运算类&lt;/div&gt;&lt;div&gt;3.控制转移类&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iVKW09PnfDHmBO5p8iMp-2" value="&lt;div&gt;操作系统API&lt;/div&gt;&lt;div&gt;对汇编层的一种重构映射,减少信息量,增加范式,使得程序更具有可控性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.进程和线程的创建和状态管理&lt;/div&gt;&lt;div&gt;2.内存分配和释放&lt;/div&gt;&lt;div&gt;3.文件操作&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iVKW09PnfDHmBO5p8iMp-3" value="&lt;div&gt;高级语言&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;对汇编层的一种重构映射,减少信息量,增加范式,使得程序更具有可控性&lt;/div&gt;&lt;div&gt;本质上是将一部分软件语义委托给操作系统或者虚拟机等中间层处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
+          <mxGeometry x="880" y="440" width="320" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
