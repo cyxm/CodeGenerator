@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.7" pages="7">
   <diagram id="AjevdpNKFCWGW2fZ6iDX" name="实体">
-    <mxGraphModel dx="2239" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,19 +22,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VQa6BMgfKN9A4eHezpP2-6" value="&lt;div&gt;1.特征&lt;/div&gt;&lt;div&gt;认知是对物理实体的一种映射,但认知的信息量必定小于物理实体,因此认知的事物总是会做一定的信息筛减&lt;/div&gt;&lt;div&gt;1-1.静态特征和动态特征&lt;/div&gt;&lt;div&gt;描述实体的特征是否和时间相关,通常动态特征的信息量和复杂度要远大于静态特征&lt;/div&gt;&lt;div&gt;1-2..结构特征和交互特征&lt;/div&gt;&lt;div&gt;描述实体的特征是基于内部结构描述还是与外界的交互描述&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.特征间的关系&lt;/div&gt;&lt;div&gt;2-1.正交特征&lt;/div&gt;&lt;div&gt;一种特征变动时,完全不会影响到另一种特征,则两个特征是正交的&lt;/div&gt;&lt;div&gt;2-2.模糊特征&lt;/div&gt;&lt;div&gt;两个特征间具有关联,但以当前认知水平无法得到原因&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.特征集&lt;/div&gt;&lt;div&gt;3-1.完全特征集&lt;/div&gt;&lt;div&gt;包含的特征可对应全部实体&lt;/div&gt;&lt;div&gt;3-2.二元特征集&lt;/div&gt;&lt;div&gt;由于模糊特征,无法准确的分离出正交特征,导致特征描述模糊,只能用特征的有无区分,以获得完全特征集&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
-          <mxGeometry x="240" y="200" width="360" height="480" as="geometry" />
+          <mxGeometry x="240" y="480" width="360" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="LjxktlOLDU8j0kuQi8os-1" value="&lt;div&gt;认知过程&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.解构&lt;/div&gt;&lt;div&gt;将庞大的结构分解,降低认知难度,解析物理实体运行的原理&lt;/div&gt;&lt;div&gt;1-1.认知粒度&lt;/div&gt;&lt;div&gt;根据认知能力,对实体的认知粒度不同,解构程度不同,解构后特征的准确度也不同&lt;/div&gt;&lt;div&gt;1-2.界定&lt;/div&gt;&lt;div&gt;&lt;div&gt;任何物理实体只是物质全集的部分,对全集解构后的产物,需要对特征边界做界定&lt;/div&gt;&lt;/div&gt;&lt;div&gt;1-3.聚焦&lt;/div&gt;&lt;div&gt;只关注部分特征,忽略其他特征&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="80" width="360" height="230" as="geometry" />
+        <mxCell id="LjxktlOLDU8j0kuQi8os-1" value="&lt;div&gt;认知过程&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.解构&lt;/div&gt;&lt;div&gt;将庞大的结构分解,降低认知难度,解析物理实体运行的原理&lt;/div&gt;&lt;div&gt;1-1.认知粒度&lt;/div&gt;&lt;div&gt;根据认知能力,对实体的认知粒度不同,解构程度不同,解构后特征的准确度也不同&lt;/div&gt;&lt;div&gt;1-2.界定&lt;/div&gt;&lt;div&gt;&lt;div&gt;任何物理实体只是物质全集的部分,对全集解构后的产物,需要对特征边界做界定&lt;/div&gt;&lt;/div&gt;&lt;div&gt;1-3.聚焦&lt;/div&gt;&lt;div&gt;只关注部分特征,忽略其他特征&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="360" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="LjxktlOLDU8j0kuQi8os-3" value="认知实体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjxktlOLDU8j0kuQi8os-3" value="认知实体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="600" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LjxktlOLDU8j0kuQi8os-4" value="特征认知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="LjxktlOLDU8j0kuQi8os-3">
+        <mxCell id="LjxktlOLDU8j0kuQi8os-4" value="特征认知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="LjxktlOLDU8j0kuQi8os-3" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LjxktlOLDU8j0kuQi8os-7" value="&lt;div&gt;2.重构&lt;/div&gt;&lt;div&gt;将认知重构成物理实体的过程,通过和外界的交互,更改物理实体的特征&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="360" width="360" height="100" as="geometry" />
+        <mxCell id="LjxktlOLDU8j0kuQi8os-7" value="&lt;div&gt;2.重构&lt;/div&gt;&lt;div&gt;将认知重构成物理实体的过程,通过和外界的交互,更改物理实体的特征&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="360" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -181,13 +181,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EnrUjxHXvbWjaL8nLA-c-5" value="&lt;div&gt;汇编层表达(汇编语言,机器码),拥有最基础的语义,控制硬件层的运行流程:&lt;/div&gt;&lt;div&gt;1.数据传送类&lt;/div&gt;&lt;div&gt;2.运算类&lt;/div&gt;&lt;div&gt;3.控制转移类&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="EnrUjxHXvbWjaL8nLA-c-5" value="&lt;div&gt;汇编层表达(汇编语言,机器码),拥有最基础的语义,控制硬件层的运行流程:&lt;/div&gt;&lt;div&gt;1.数据传送类&lt;/div&gt;&lt;div&gt;2.运算类&lt;/div&gt;&lt;div&gt;3.控制转移类&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="EnrUjxHXvbWjaL8nLA-c-6" value="&lt;div&gt;高级语言层,对汇编层的一种重构映射,减少信息量,增加范式,使得程序更具有可控性&lt;/div&gt;&lt;div&gt;本质上是将一部分软件语义委托给操作系统或者虚拟机等中间层处理&lt;/div&gt;&lt;div&gt;1.内存管理&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="EnrUjxHXvbWjaL8nLA-c-6" value="&lt;div&gt;高级语言层,对汇编层的一种重构映射,减少信息量,增加范式,使得程序更具有可控性&lt;/div&gt;&lt;div&gt;本质上是将一部分软件语义委托给操作系统或者虚拟机等中间层处理&lt;/div&gt;&lt;div&gt;1.内存管理&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="440" y="280" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="-XHl--1JR-R2RV8Wd_5n-1" value="&lt;div&gt;软件语义:&lt;/div&gt;&lt;div&gt;软件的语义本质上是计算机这一物理实体运行特征的认知,抽离硬件的底层运行特征,将硬件抽象为自动机模型&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="-XHl--1JR-R2RV8Wd_5n-1" value="&lt;div&gt;软件语义:&lt;/div&gt;&lt;div&gt;软件的语义本质上是计算机这一物理实体运行特征的认知,抽离硬件的底层运行特征,将硬件抽象为自动机模型&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="240" y="40" width="320" height="120" as="geometry" />
         </mxCell>
       </root>
