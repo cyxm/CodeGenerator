@@ -71,8 +71,8 @@
         <mxCell id="q-HN7M_W7D67pqpHvjYQ-3" value="认知实体" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="680" y="280" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="q-HN7M_W7D67pqpHvjYQ-4" value="&lt;div&gt;认知动作&lt;/div&gt;&lt;div&gt;将物理实体转换为大脑的认知&lt;/div&gt;&lt;div&gt;认知过程中,有边界判定,认知粒度,特征提取等&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.二维图像认知&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.三维形状认知&lt;/div&gt;&lt;div&gt;深度认知&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="280" width="280" height="200" as="geometry" />
+        <mxCell id="q-HN7M_W7D67pqpHvjYQ-4" value="&lt;div&gt;认知&lt;/div&gt;&lt;div&gt;将物理实体转换为大脑的认知&lt;/div&gt;&lt;div&gt;认知过程中,有边界判定,认知粒度,特征提取等&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.二维图像认知&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.三维形状认知&lt;/div&gt;&lt;div&gt;深度认知&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="q-HN7M_W7D67pqpHvjYQ-5" value="&lt;div&gt;分解逻辑&lt;/div&gt;&lt;div&gt;对实体进行分解&lt;/div&gt;&lt;div&gt;X可分解为YZ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="560" width="280" height="80" as="geometry" />
@@ -170,6 +170,24 @@
         </mxCell>
         <mxCell id="icFrRc2_i2oBbtaFi4X1-12" value="模糊实体" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1200" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M8DWumASs2Aaw70VE-25-1" value="实体关系&lt;div&gt;所有逻辑都有隐含实体,属于语境中的共识,要使得逻辑更加严谨,需要在逻辑语义中明确这些隐含实体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M8DWumASs2Aaw70VE-25-2" value="聚焦实体" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M8DWumASs2Aaw70VE-25-3" value="隐含实体" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M8DWumASs2Aaw70VE-25-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8DWumASs2Aaw70VE-25-2" target="M8DWumASs2Aaw70VE-25-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1050" as="sourcePoint" />
+            <mxPoint x="710" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8DWumASs2Aaw70VE-25-5" value="&lt;div&gt;特征(基于当前的认知粒度)&lt;/div&gt;&lt;div&gt;1.静态结构特征&lt;/div&gt;&lt;div&gt;实体的形状&lt;/div&gt;&lt;div&gt;2.静态交互特征&lt;/div&gt;&lt;div&gt;实体的颜色&lt;/div&gt;&lt;div&gt;3.动态结构特征&lt;/div&gt;&lt;div&gt;实体的状态变化&lt;/div&gt;&lt;div&gt;4.动态交互特征&lt;/div&gt;&lt;div&gt;实体的对外交互变化&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="840" y="280" width="280" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
